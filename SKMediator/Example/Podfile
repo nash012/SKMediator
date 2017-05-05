@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SKMediator_Example' do
+  pod 'SKMediator', :path => '../'
+
+  target 'SKMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
